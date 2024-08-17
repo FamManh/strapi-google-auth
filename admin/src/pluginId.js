@@ -1,5 +1,6 @@
 const pluginPkg = require('../../package.json');
 
-const pluginId = pluginPkg.name.replace(/^(@[^-,.][\w,-]+\/|strapi-)plugin-/i, '');
+let pluginId = pluginPkg.name.replace(/^strapi-plugin-/i, '');
+pluginId = pluginPkg.name.replace(/^@viconsol\//i, '');
 
 module.exports = pluginId;
