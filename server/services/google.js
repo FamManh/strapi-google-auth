@@ -124,7 +124,7 @@ module.exports = ({ strapi }) => ({
               confirmed: true,
               blocked: false,
               role: 1,
-              provider: "local"
+              provider: "google"
             }
           })
           return resolve({

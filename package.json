@@ -1,5 +1,5 @@
 {
-  "name": "strapi-google-auth",
+  "name": "@viconsol/strapi-google-auth",
   "version": "0.2.1",
   "description": "GoogleAuth helps you to easily create google authentication available for your users. It uses the official google-auth library to execute the actions.",
   "strapi": {
@@ -16,11 +16,11 @@
     "googleapis": "^100.0.0"
   },
   "author": {
-    "name": "Arju S Moon"
+    "name": "Manh Pham"
   },
   "maintainers": [
     {
-      "name": "Arju S Moon"
+      "name": "Manh Pham"
     }
   ],
   "engines": {

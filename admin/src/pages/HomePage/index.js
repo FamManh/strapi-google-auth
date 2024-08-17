@@ -148,29 +148,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Box padding={8} background="primary100">
-        <BaseHeaderLayout
-          navigationAction={
-            <Link isExternal href="https://arjusmoon.com">
-              Arju S Moon.
-            </Link>
-          }
-          primaryAction={
-            <LinkButton
-              startIcon={<Plus />}
-              size="L"
-              variant="default"
-              href="https://console.cloud.google.com/projectcreate?previousPage=%2Fcloud-resource-manager%3Fproject%3D%26folder%3D%26organizationId%3D"
-            >
-              Create Google Project
-            </LinkButton>
-          }
-          title="Google Authenticator"
-          subtitle="By Arju S Moon."
-          as="h2"
-        />
-      </Box>
-
       <Box padding={8} background="neutral100">
         <Box padding={4}>
           <Typography variant="beta">
